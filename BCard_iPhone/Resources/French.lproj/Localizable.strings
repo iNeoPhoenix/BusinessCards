@@ -1,0 +1,62 @@
+/* 
+   Localizable.strings
+   BCard_iPhone
+
+   Created by Stéphane Chrétien on 18/02/10.
+   Copyright 2010 Cokoala. All rights reserved.
+ */
+
+"GroupsTableView_Title_Key" = "Groupes";
+
+"UnrecoverableErrorPanel_Title_Key" = "Erreur";
+"UnrecoverableErrorPanel_Message_Key" = "An unrecoverable error has occurred. Please relaunch the application.";
+
+"MailErrorPanel_Title_Key"		= "Erreur";
+"MailErrorPanel_Message_Key"	= "Cet email n'a pas été envoyé.";
+"MailContent_Subject_Key"		= "Carte de visite : %@ %@";
+"MailContent_MessageFooter_Key"	= "<br>Envoyé depuis l'application iPhone <i>Business Card 3D</i>";
+
+"MailContent_FirstName_Key" = "<b>Prénom :</b> %@<br>";
+"MailContent_LastName_Key"	= "<b>Nom :</b> %@<br>";
+"MailContent_Company_Key"	= "<b>Entreprise :</b> %@<br>";
+"MailContent_Job_Key"		= "<b>Métier :</b> %@<br>";
+"MailContent_Phones_Key"	= "<b>Téléphone :</b> %@<br>";
+"MailContent_Mails_Key"		= "<b>Email :</b> %@<br>"; 
+
+"ABErrorPanel_Title_Key"  = "Erreur";
+"ABErrorPanel_Messag_Key" = "Impossible de trouver cette personne dans vos contacts";
+"ABErrorPanel_Button_Key" = "Annuler";
+
+"ABExternalReload_Message_Key" = "Mise à jour";
+
+"AllContactsGroup_Label_Key" = "Contacts (tous)";
+
+"NoBusinessCard_Label_Key" = "Aucune carte de visite";
+
+"UnknownContact_Name_Key"		= "Inconnu";
+"UnknownContact_FirstName_Key"	= "Inconnu";
+
+"PhotoResizerController_Title_Key" = "Modifier";
+
+"SavingAlert_Message_Key" = "Sauvegarde";
+"ProcessingAlert_Message_Key" = "Traitement";
+
+"ExportPanel_Title_key"		= "Exporter";
+"EportPanel_Mail_Key"		= "Envoyer par email";
+"ExportPanel_Cancel_Key"	= "Annuler";
+
+"DeletePanel_Delete_Key"	= "Supprimer";
+"DeletePanel_Cancel_Key"	= "Annuler";
+
+"SelectCardPanel_TitleFront_Key"	= "Image recto";
+"SelectCardPanel_TitleBack_Key"		= "Image verso";
+"SelectCardPanel_Cancel_Key"		= "Annuler";
+"SelectCardPanel_NewPict_Key"		= "Prendre une photo";
+"SelectCardPanel_Library_Key"		= "Choisir une photo";
+"SelectCardPanel_Modify_Key"		= "Modifier la photo actuelle";
+
+"FrontLabel_Text_Key"	= "Recto";
+"BackLabel_Text_Key"	= "Verso";
+
+"AskContactExisting_ButtonTitle_Key" = "Lier à un contact existant";
+"AskContactNew_ButtonTitle_Key"		 = "Créer un nouveau contact";

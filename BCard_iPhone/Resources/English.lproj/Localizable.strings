@@ -1,0 +1,62 @@
+/* 
+   Localizable.strings
+   BCard_iPhone
+
+   Created by Stéphane Chrétien on 18/02/10.
+   Copyright 2010 Cokoala. All rights reserved.
+ */
+
+"GroupsTableView_Title_Key" = "Groups";
+
+"UnrecoverableErrorPanel_Title_Key" = "Error";
+"UnrecoverableErrorPanel_Message_Key" = "An unrecoverable error has occurred. Please relaunch the application.";
+
+"MailErrorPanel_Title_Key"		= "Error";
+"MailErrorPanel_Message_Key"	= "This email has not been sent.";
+"MailContent_Subject_Key"		= "Business Card: %@ %@";
+"MailContent_MessageFooter_Key"	= "<br>Sent from <i>Business Card 3D</i> iPhone app";
+
+"MailContent_FirstName_Key" = "<b>First Name:</b> %@<br>";
+"MailContent_LastName_Key"	= "<b>Last Name:</b> %@<br>";
+"MailContent_Company_Key"	= "<b>Company:</b> %@<br>";
+"MailContent_Job_Key"		= "<b>Job:</b> %@<br>";
+"MailContent_Phones_Key"	= "<b>Phone:</b> %@<br>";
+"MailContent_Mails_Key"		= "<b>Mail:</b> %@<br>"; 
+
+"ABErrorPanel_Title_Key"  = "Error";
+"ABErrorPanel_Messag_Key" = "Could not find people in the Contacts application";
+"ABErrorPanel_Button_Key" = "Cancel";
+
+"ABExternalReload_Message_Key" = "Address Book Update";
+
+"AllContactsGroup_Label_Key" = "All Contacts";
+
+"NoBusinessCard_Label_Key" = "No Business Cards";
+
+"UnknownContact_Name_Key"		= "Unknown";
+"UnknownContact_FirstName_Key"	= "Unknown";
+
+"PhotoResizerController_Title_Key" = "Resize";
+
+"SavingAlert_Message_Key" = "Saving";
+"ProcessingAlert_Message_Key" = "Processing";
+
+"ExportPanel_Title_key"		= "Export";
+"EportPanel_Mail_Key"		= "Email";
+"ExportPanel_Cancel_Key"	= "Cancel";
+
+"DeletePanel_Delete_Key"	= "Delete";
+"DeletePanel_Cancel_Key"	= "Cancel";
+
+"SelectCardPanel_TitleFront_Key"	= "Front image";
+"SelectCardPanel_TitleBack_Key"		= "Back image";
+"SelectCardPanel_Cancel_Key"		= "Cancel";
+"SelectCardPanel_NewPict_Key"		= "Take Picture";
+"SelectCardPanel_Library_Key"		= "From Photo Library";
+"SelectCardPanel_Modify_Key"		= "Modify Current";
+
+"FrontLabel_Text_Key"	= "Front";
+"BackLabel_Text_Key"	= "Back";
+
+"AskContactExisting_ButtonTitle_Key" = "Link To Existing Contact";
+"AskContactNew_ButtonTitle_Key" = "Create New Contact";

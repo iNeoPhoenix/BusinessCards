@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BCard_iPhoneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BCard_iPhoneAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28C3AD8A0F43EF2300507BA6 /* BCard_iPhone.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 28C3AD890F43EF2300507BA6 /* BCard_iPhone.xcdatamodel */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		F40CB73811FAFC2F006FDCBC /* ExistingContactButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = F40CB73411FAFC2F006FDCBC /* ExistingContactButtonNormal.png */; };
+		F40CB73911FAFC2F006FDCBC /* ExistingContactButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = F40CB73511FAFC2F006FDCBC /* ExistingContactButtonHighlighted.png */; };
+		F40CB73A11FAFC2F006FDCBC /* NewContactButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = F40CB73611FAFC2F006FDCBC /* NewContactButtonNormal.png */; };
+		F40CB73B11FAFC2F006FDCBC /* NewContactButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = F40CB73711FAFC2F006FDCBC /* NewContactButtonHighlighted.png */; };
+		F40CB76B11FB5673006FDCBC /* ExistingContactButtonHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40CB76711FB5673006FDCBC /* ExistingContactButtonHighlighted@2x.png */; };
+		F40CB76C11FB5673006FDCBC /* ExistingContactButtonNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40CB76811FB5673006FDCBC /* ExistingContactButtonNormal@2x.png */; };
+		F40CB76D11FB5673006FDCBC /* NewContactButtonHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40CB76911FB5673006FDCBC /* NewContactButtonHighlighted@2x.png */; };
+		F40CB76E11FB5673006FDCBC /* NewContactButtonNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F40CB76A11FB5673006FDCBC /* NewContactButtonNormal@2x.png */; };
+		F40D97E41131C93400A93AD8 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40D97E31131C93400A93AD8 /* AddressBook.framework */; };
+		F40D97E61131C93400A93AD8 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40D97E51131C93400A93AD8 /* AddressBookUI.framework */; };
+		F421213A11CD0B00006D4C93 /* CropRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F421213911CD0B00006D4C93 /* CropRectView.m */; };
+		F426D92312088B200065B7C7 /* backgroundGradientLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F426D92112088B200065B7C7 /* backgroundGradientLandscape@2x.png */; };
+		F426D92412088B200065B7C7 /* backgroundGradientPortrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F426D92212088B200065B7C7 /* backgroundGradientPortrait@2x.png */; };
+		F427F38011594D2000F40034 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F427F37F11594D2000F40034 /* QuartzCore.framework */; };
+		F49F9418123A8F0E00F91A2B /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = F49F9417123A8F0E00F91A2B /* dist.plist */; };
+		F4A4FF67121267940096C049 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4A4FF66121267940096C049 /* Localizable.strings */; };
+		F4A89B7711B38F3B005A86B1 /* EmptyCard.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A89B7611B38F3B005A86B1 /* EmptyCard.png */; };
+		F4A9065D12357E1D00B29BB3 /* RotateButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A9065B12357E1D00B29BB3 /* RotateButton.png */; };
+		F4A9065E12357E1D00B29BB3 /* RotateButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A9065C12357E1D00B29BB3 /* RotateButton@2x.png */; };
+		F4AFEAE5114812AC00EB74BF /* DisplayBCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AFEAE3114812AC00EB74BF /* DisplayBCardViewController.m */; };
+		F4AFEAE6114812AC00EB74BF /* DisplayBCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4AFEAE4114812AC00EB74BF /* DisplayBCardViewController.xib */; };
+		F4B903EB11E9A9300046B581 /* ABGroupW.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B903EA11E9A9300046B581 /* ABGroupW.m */; };
+		F4B903EE11E9A93C0046B581 /* ABContactW.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B903ED11E9A93C0046B581 /* ABContactW.m */; };
+		F4B9054811EA1FE90046B581 /* AskContactIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9054611EA1FE90046B581 /* AskContactIcon@2x.png */; };
+		F4B9054911EA1FE90046B581 /* DisplayContactIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B9054711EA1FE90046B581 /* DisplayContactIcon@2x.png */; };
+		F4BA186711D1581500DDEA0B /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = F4BA186611D1581500DDEA0B /* Default@2x~iphone.png */; };
+		F4C154C711A3058100A867CB /* backgroundGradientLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C154C611A3058100A867CB /* backgroundGradientLandscape.png */; };
+		F4C2712011564BE400BE6883 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C2711F11564BE400BE6883 /* Notifications.m */; };
+		F4C2B5331187363900BD9D13 /* DisplayContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C2B5311187363900BD9D13 /* DisplayContactController.m */; };
+		F4C3433B11F8DCAB0071DE93 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C3433A11F8DCAB0071DE93 /* MessageUI.framework */; };
+		F4CE39ED11D12FED003CFF92 /* Icon_iPhone4.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE39EC11D12FED003CFF92 /* Icon_iPhone4.png */; };
+		F4CE3A1511D1435A003CFF92 /* Icon_iPhone3.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE3A1411D1435A003CFF92 /* Icon_iPhone3.png */; };
+		F4CE85A11201DB4C00C0C69D /* PhotoResizerPinBottomRight.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE859D1201DB4C00C0C69D /* PhotoResizerPinBottomRight.png */; };
+		F4CE85A21201DB4C00C0C69D /* PhotoResizerPinBottomRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE859E1201DB4C00C0C69D /* PhotoResizerPinBottomRight@2x.png */; };
+		F4CE85A31201DB4C00C0C69D /* PhotoResizerPinTopLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE859F1201DB4C00C0C69D /* PhotoResizerPinTopLeft.png */; };
+		F4CE85A41201DB4C00C0C69D /* PhotoResizerPinTopLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE85A01201DB4C00C0C69D /* PhotoResizerPinTopLeft@2x.png */; };
+		F4CEA5CD1134413D00844333 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CEA5CC1134413D00844333 /* Group.m */; };
+		F4CEA5D01134415600844333 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CEA5CF1134415600844333 /* DataManager.m */; };
+		F4D2155311AFC09100718784 /* DisplayContactIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D2155211AFC09100718784 /* DisplayContactIcon.png */; };
+		F4D2156411AFC44C00718784 /* AskContactIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D2156311AFC44C00718784 /* AskContactIcon.png */; };
+		F4D47ED31133009C002C5225 /* UIImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D47ED21133009C002C5225 /* UIImageToDataTransformer.m */; };
+		F4D47EDF11330765002C5225 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D47EDC11330765002C5225 /* Photo.m */; };
+		F4D47EE011330765002C5225 /* BCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D47EDE11330765002C5225 /* BCard.m */; };
+		F4E0F40511ECDC0B00EECC0C /* AlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E0F40411ECDC0B00EECC0C /* AlertManager.m */; };
+		F4E28315112DABBD00C32A30 /* FrontRowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28312112DABBD00C32A30 /* FrontRowViewController.m */; };
+		F4E2831A112DAFD600C32A30 /* FrontRowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E28318112DAFD600C32A30 /* FrontRowView.xib */; };
+		F4E2834C112DB31100C32A30 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E2834B112DB31100C32A30 /* Default~iphone.png */; };
+		F4E28357112DB3F400C32A30 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28356112DB3F400C32A30 /* MainNavigationController.m */; };
+		F4E28398112DBFD100C32A30 /* GroupsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E28396112DBFD100C32A30 /* GroupsTableViewController.m */; };
+		F4E28399112DBFD100C32A30 /* GroupsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E28397112DBFD100C32A30 /* GroupsTableViewController.xib */; };
+		F4E2839D112DC00400C32A30 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E2839B112DC00400C32A30 /* ContactsTableViewController.m */; };
+		F4E2839E112DC00400C32A30 /* ContactsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E2839C112DC00400C32A30 /* ContactsTableViewController.xib */; };
+		F4E44A82119D84E900783902 /* AskContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E44A80119D84E900783902 /* AskContactViewController.m */; };
+		F4E44A83119D84E900783902 /* AskContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E44A81119D84E900783902 /* AskContactViewController.xib */; };
+		F4F38EE111C7E585004679D6 /* PhotoResizerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F38EDF11C7E585004679D6 /* PhotoResizerController.m */; };
+		F4F38EE211C7E585004679D6 /* PhotoResizerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4F38EE011C7E585004679D6 /* PhotoResizerController.xib */; };
+		F4F6FA5A113C3DCC00ACB401 /* UIImageExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F6FA59113C3DCC00ACB401 /* UIImageExt.m */; };
+		F4F75CC911739351009849A3 /* backgroundGradientPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F75CC811739350009849A3 /* backgroundGradientPortrait.png */; };
+		F4FA8A7E1176491700F777FC /* UIReflectedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FA8A7D1176491700F777FC /* UIReflectedImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BCard_iPhoneAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCard_iPhoneAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BCard_iPhoneAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCard_iPhoneAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* BCard_iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCard_iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* BCard_iPhone.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = BCard_iPhone.xcdatamodel; path = ../BCard_iPhone.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* BCard_iPhone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCard_iPhone_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BCard_iPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BCard_iPhone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F40CB73411FAFC2F006FDCBC /* ExistingContactButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ExistingContactButtonNormal.png; path = Resources/ExistingContactButtonNormal.png; sourceTree = "<group>"; };
+		F40CB73511FAFC2F006FDCBC /* ExistingContactButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ExistingContactButtonHighlighted.png; path = Resources/ExistingContactButtonHighlighted.png; sourceTree = SOURCE_ROOT; };
+		F40CB73611FAFC2F006FDCBC /* NewContactButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NewContactButtonNormal.png; path = Resources/NewContactButtonNormal.png; sourceTree = "<group>"; };
+		F40CB73711FAFC2F006FDCBC /* NewContactButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NewContactButtonHighlighted.png; path = Resources/NewContactButtonHighlighted.png; sourceTree = SOURCE_ROOT; };
+		F40CB76711FB5673006FDCBC /* ExistingContactButtonHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ExistingContactButtonHighlighted@2x.png"; path = "Resources/ExistingContactButtonHighlighted@2x.png"; sourceTree = SOURCE_ROOT; };
+		F40CB76811FB5673006FDCBC /* ExistingContactButtonNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ExistingContactButtonNormal@2x.png"; path = "Resources/ExistingContactButtonNormal@2x.png"; sourceTree = SOURCE_ROOT; };
+		F40CB76911FB5673006FDCBC /* NewContactButtonHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NewContactButtonHighlighted@2x.png"; path = "Resources/NewContactButtonHighlighted@2x.png"; sourceTree = SOURCE_ROOT; };
+		F40CB76A11FB5673006FDCBC /* NewContactButtonNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NewContactButtonNormal@2x.png"; path = "Resources/NewContactButtonNormal@2x.png"; sourceTree = SOURCE_ROOT; };
+		F40D97E31131C93400A93AD8 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F40D97E51131C93400A93AD8 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		F421213811CD0B00006D4C93 /* CropRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropRectView.h; sourceTree = "<group>"; };
+		F421213911CD0B00006D4C93 /* CropRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropRectView.m; sourceTree = "<group>"; };
+		F426D92112088B200065B7C7 /* backgroundGradientLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backgroundGradientLandscape@2x.png"; path = "Resources/backgroundGradientLandscape@2x.png"; sourceTree = SOURCE_ROOT; };
+		F426D92212088B200065B7C7 /* backgroundGradientPortrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backgroundGradientPortrait@2x.png"; path = "Resources/backgroundGradientPortrait@2x.png"; sourceTree = SOURCE_ROOT; };
+		F427F37F11594D2000F40034 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F49F9417123A8F0E00F91A2B /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dist.plist; sourceTree = SOURCE_ROOT; };
+		F4A4FF681212679F0096C049 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = Resources/French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4A89B7611B38F3B005A86B1 /* EmptyCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EmptyCard.png; path = Resources/EmptyCard.png; sourceTree = SOURCE_ROOT; };
+		F4A9065B12357E1D00B29BB3 /* RotateButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RotateButton.png; path = Resources/RotateButton.png; sourceTree = SOURCE_ROOT; };
+		F4A9065C12357E1D00B29BB3 /* RotateButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RotateButton@2x.png"; path = "Resources/RotateButton@2x.png"; sourceTree = SOURCE_ROOT; };
+		F4AFEAE2114812AC00EB74BF /* DisplayBCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayBCardViewController.h; sourceTree = "<group>"; };
+		F4AFEAE3114812AC00EB74BF /* DisplayBCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayBCardViewController.m; sourceTree = "<group>"; };
+		F4AFEAE4114812AC00EB74BF /* DisplayBCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DisplayBCardViewController.xib; path = Classes/DisplayBCardViewController.xib; sourceTree = "<group>"; };
+		F4B903E911E9A9300046B581 /* ABGroupW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABGroupW.h; sourceTree = "<group>"; };
+		F4B903EA11E9A9300046B581 /* ABGroupW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABGroupW.m; sourceTree = "<group>"; };
+		F4B903EC11E9A93C0046B581 /* ABContactW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABContactW.h; sourceTree = "<group>"; };
+		F4B903ED11E9A93C0046B581 /* ABContactW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABContactW.m; sourceTree = "<group>"; };
+		F4B9054611EA1FE90046B581 /* AskContactIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AskContactIcon@2x.png"; path = "Resources/AskContactIcon@2x.png"; sourceTree = SOURCE_ROOT; };
+		F4B9054711EA1FE90046B581 /* DisplayContactIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "DisplayContactIcon@2x.png"; path = "Resources/DisplayContactIcon@2x.png"; sourceTree = SOURCE_ROOT; };
+		F4BA186611D1581500DDEA0B /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/Default@2x~iphone.png"; sourceTree = "<group>"; };
+		F4C154C611A3058100A867CB /* backgroundGradientLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundGradientLandscape.png; path = Resources/backgroundGradientLandscape.png; sourceTree = SOURCE_ROOT; };
+		F4C2711E11564BE400BE6883 /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		F4C2711F11564BE400BE6883 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
+		F4C2B5301187363900BD9D13 /* DisplayContactController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayContactController.h; sourceTree = "<group>"; };
+		F4C2B5311187363900BD9D13 /* DisplayContactController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayContactController.m; sourceTree = "<group>"; };
+		F4C3433A11F8DCAB0071DE93 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F4CE39EC11D12FED003CFF92 /* Icon_iPhone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_iPhone4.png; path = Resources/Icon_iPhone4.png; sourceTree = "<group>"; };
+		F4CE3A1411D1435A003CFF92 /* Icon_iPhone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_iPhone3.png; path = Resources/Icon_iPhone3.png; sourceTree = "<group>"; };
+		F4CE859D1201DB4C00C0C69D /* PhotoResizerPinBottomRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PhotoResizerPinBottomRight.png; path = Resources/PhotoResizerPinBottomRight.png; sourceTree = SOURCE_ROOT; };
+		F4CE859E1201DB4C00C0C69D /* PhotoResizerPinBottomRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PhotoResizerPinBottomRight@2x.png"; path = "Resources/PhotoResizerPinBottomRight@2x.png"; sourceTree = SOURCE_ROOT; };
+		F4CE859F1201DB4C00C0C69D /* PhotoResizerPinTopLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PhotoResizerPinTopLeft.png; path = Resources/PhotoResizerPinTopLeft.png; sourceTree = SOURCE_ROOT; };
+		F4CE85A01201DB4C00C0C69D /* PhotoResizerPinTopLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PhotoResizerPinTopLeft@2x.png"; path = "Resources/PhotoResizerPinTopLeft@2x.png"; sourceTree = SOURCE_ROOT; };
+		F4CEA5CB1134413D00844333 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		F4CEA5CC1134413D00844333 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		F4CEA5CE1134415600844333 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		F4CEA5CF1134415600844333 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		F4D2155211AFC09100718784 /* DisplayContactIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DisplayContactIcon.png; path = Resources/DisplayContactIcon.png; sourceTree = "<group>"; };
+		F4D2156311AFC44C00718784 /* AskContactIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AskContactIcon.png; path = Resources/AskContactIcon.png; sourceTree = SOURCE_ROOT; };
+		F4D47ED11133009C002C5225 /* UIImageToDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageToDataTransformer.h; path = Classes/UIImageToDataTransformer.h; sourceTree = SOURCE_ROOT; };
+		F4D47ED21133009C002C5225 /* UIImageToDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIImageToDataTransformer.m; path = Classes/UIImageToDataTransformer.m; sourceTree = SOURCE_ROOT; };
+		F4D47EDB11330765002C5225 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		F4D47EDC11330765002C5225 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		F4D47EDD11330765002C5225 /* BCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCard.h; sourceTree = "<group>"; };
+		F4D47EDE11330765002C5225 /* BCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCard.m; sourceTree = "<group>"; };
+		F4E0F40311ECDC0B00EECC0C /* AlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertManager.h; sourceTree = "<group>"; };
+		F4E0F40411ECDC0B00EECC0C /* AlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertManager.m; sourceTree = "<group>"; };
+		F4E28311112DABBD00C32A30 /* FrontRowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontRowViewController.h; sourceTree = "<group>"; };
+		F4E28312112DABBD00C32A30 /* FrontRowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontRowViewController.m; sourceTree = "<group>"; };
+		F4E28318112DAFD600C32A30 /* FrontRowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FrontRowView.xib; path = Resources/FrontRowView.xib; sourceTree = "<group>"; };
+		F4E2834B112DB31100C32A30 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone.png"; path = "Resources/Default~iphone.png"; sourceTree = "<group>"; };
+		F4E28355112DB3F400C32A30 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		F4E28356112DB3F400C32A30 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		F4E28395112DBFD100C32A30 /* GroupsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsTableViewController.h; sourceTree = "<group>"; };
+		F4E28396112DBFD100C32A30 /* GroupsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsTableViewController.m; sourceTree = "<group>"; };
+		F4E28397112DBFD100C32A30 /* GroupsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GroupsTableViewController.xib; path = Classes/GroupsTableViewController.xib; sourceTree = "<group>"; };
+		F4E2839A112DC00400C32A30 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
+		F4E2839B112DC00400C32A30 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
+		F4E2839C112DC00400C32A30 /* ContactsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContactsTableViewController.xib; path = Classes/ContactsTableViewController.xib; sourceTree = "<group>"; };
+		F4E283B1112DC27700C32A30 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4E44A7F119D84E900783902 /* AskContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskContactViewController.h; sourceTree = "<group>"; };
+		F4E44A80119D84E900783902 /* AskContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskContactViewController.m; sourceTree = "<group>"; };
+		F4E44A81119D84E900783902 /* AskContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AskContactViewController.xib; path = Classes/AskContactViewController.xib; sourceTree = "<group>"; };
+		F4F38EDE11C7E585004679D6 /* PhotoResizerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoResizerController.h; sourceTree = "<group>"; };
+		F4F38EDF11C7E585004679D6 /* PhotoResizerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoResizerController.m; sourceTree = "<group>"; };
+		F4F38EE011C7E585004679D6 /* PhotoResizerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoResizerController.xib; path = Classes/PhotoResizerController.xib; sourceTree = "<group>"; };
+		F4F6FA58113C3DCC00ACB401 /* UIImageExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExt.h; sourceTree = "<group>"; };
+		F4F6FA59113C3DCC00ACB401 /* UIImageExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExt.m; sourceTree = "<group>"; };
+		F4F75CC811739350009849A3 /* backgroundGradientPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundGradientPortrait.png; path = Resources/backgroundGradientPortrait.png; sourceTree = "<group>"; };
+		F4FA8A7C1176491700F777FC /* UIReflectedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIReflectedImageView.h; sourceTree = "<group>"; };
+		F4FA8A7D1176491700F777FC /* UIReflectedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIReflectedImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				F40D97E41131C93400A93AD8 /* AddressBook.framework in Frameworks */,
+				F40D97E61131C93400A93AD8 /* AddressBookUI.framework in Frameworks */,
+				F427F38011594D2000F40034 /* QuartzCore.framework in Frameworks */,
+				F4C3433B11F8DCAB0071DE93 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* BCard_iPhoneAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BCard_iPhoneAppDelegate.m */,
+				F4C2711E11564BE400BE6883 /* Notifications.h */,
+				F4C2711F11564BE400BE6883 /* Notifications.m */,
+				F4F6FA50113C3DA100ACB401 /* Useful */,
+				F4E28336112DB12200C32A30 /* Portrait */,
+				F4E28337112DB13100C32A30 /* Landscape */,
+				F4E28390112DBBF500C32A30 /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* BCard_iPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* BCard_iPhone_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F49F9417123A8F0E00F91A2B /* dist.plist */,
+				8D1107310486CEB800E47090 /* BCard_iPhone-Info.plist */,
+				F4CE3A0011D13312003CFF92 /* Icon */,
+				F4CE3A0111D13325003CFF92 /* Splash */,
+				F4A89B7611B38F3B005A86B1 /* EmptyCard.png */,
+				F4D2156311AFC44C00718784 /* AskContactIcon.png */,
+				F4B9054611EA1FE90046B581 /* AskContactIcon@2x.png */,
+				F4D2155211AFC09100718784 /* DisplayContactIcon.png */,
+				F4B9054711EA1FE90046B581 /* DisplayContactIcon@2x.png */,
+				F4A9065B12357E1D00B29BB3 /* RotateButton.png */,
+				F4A9065C12357E1D00B29BB3 /* RotateButton@2x.png */,
+				F40CB73411FAFC2F006FDCBC /* ExistingContactButtonNormal.png */,
+				F40CB76811FB5673006FDCBC /* ExistingContactButtonNormal@2x.png */,
+				F40CB73511FAFC2F006FDCBC /* ExistingContactButtonHighlighted.png */,
+				F40CB76711FB5673006FDCBC /* ExistingContactButtonHighlighted@2x.png */,
+				F40CB73611FAFC2F006FDCBC /* NewContactButtonNormal.png */,
+				F40CB76A11FB5673006FDCBC /* NewContactButtonNormal@2x.png */,
+				F40CB73711FAFC2F006FDCBC /* NewContactButtonHighlighted.png */,
+				F40CB76911FB5673006FDCBC /* NewContactButtonHighlighted@2x.png */,
+				F4CE859D1201DB4C00C0C69D /* PhotoResizerPinBottomRight.png */,
+				F4CE859E1201DB4C00C0C69D /* PhotoResizerPinBottomRight@2x.png */,
+				F4CE859F1201DB4C00C0C69D /* PhotoResizerPinTopLeft.png */,
+				F4CE85A01201DB4C00C0C69D /* PhotoResizerPinTopLeft@2x.png */,
+				F4F75CC811739350009849A3 /* backgroundGradientPortrait.png */,
+				F426D92212088B200065B7C7 /* backgroundGradientPortrait@2x.png */,
+				F4C154C611A3058100A867CB /* backgroundGradientLandscape.png */,
+				F426D92112088B200065B7C7 /* backgroundGradientLandscape@2x.png */,
+				F4A4FF66121267940096C049 /* Localizable.strings */,
+				F4E28391112DBC0900C32A30 /* Controllers */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				F40D97E31131C93400A93AD8 /* AddressBook.framework */,
+				F40D97E51131C93400A93AD8 /* AddressBookUI.framework */,
+				F427F37F11594D2000F40034 /* QuartzCore.framework */,
+				F4C3433A11F8DCAB0071DE93 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4B903EF11E9A98C0046B581 /* AB Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				F4B903E911E9A9300046B581 /* ABGroupW.h */,
+				F4B903EA11E9A9300046B581 /* ABGroupW.m */,
+				F4B903EC11E9A93C0046B581 /* ABContactW.h */,
+				F4B903ED11E9A93C0046B581 /* ABContactW.m */,
+			);
+			name = "AB Wrapper";
+			sourceTree = "<group>";
+		};
+		F4CE3A0011D13312003CFF92 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE3A1411D1435A003CFF92 /* Icon_iPhone3.png */,
+				F4CE39EC11D12FED003CFF92 /* Icon_iPhone4.png */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+		F4CE3A0111D13325003CFF92 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F4E2834B112DB31100C32A30 /* Default~iphone.png */,
+				F4BA186611D1581500DDEA0B /* Default@2x~iphone.png */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		F4E28336112DB12200C32A30 /* Portrait */ = {
+			isa = PBXGroup;
+			children = (
+				F4E28355112DB3F400C32A30 /* MainNavigationController.h */,
+				F4E28356112DB3F400C32A30 /* MainNavigationController.m */,
+				F4E28395112DBFD100C32A30 /* GroupsTableViewController.h */,
+				F4E28396112DBFD100C32A30 /* GroupsTableViewController.m */,
+				F4E2839A112DC00400C32A30 /* ContactsTableViewController.h */,
+				F4E2839B112DC00400C32A30 /* ContactsTableViewController.m */,
+				F4AFEAE2114812AC00EB74BF /* DisplayBCardViewController.h */,
+				F4AFEAE3114812AC00EB74BF /* DisplayBCardViewController.m */,
+				F4C2B5301187363900BD9D13 /* DisplayContactController.h */,
+				F4C2B5311187363900BD9D13 /* DisplayContactController.m */,
+				F4E44A7F119D84E900783902 /* AskContactViewController.h */,
+				F4E44A80119D84E900783902 /* AskContactViewController.m */,
+				F4F38EDE11C7E585004679D6 /* PhotoResizerController.h */,
+				F4F38EDF11C7E585004679D6 /* PhotoResizerController.m */,
+				F421213811CD0B00006D4C93 /* CropRectView.h */,
+				F421213911CD0B00006D4C93 /* CropRectView.m */,
+			);
+			name = Portrait;
+			sourceTree = "<group>";
+		};
+		F4E28337112DB13100C32A30 /* Landscape */ = {
+			isa = PBXGroup;
+			children = (
+				F4E28311112DABBD00C32A30 /* FrontRowViewController.h */,
+				F4E28312112DABBD00C32A30 /* FrontRowViewController.m */,
+			);
+			name = Landscape;
+			sourceTree = "<group>";
+		};
+		F4E28390112DBBF500C32A30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* BCard_iPhone.xcdatamodel */,
+				F4CEA5CE1134415600844333 /* DataManager.h */,
+				F4CEA5CF1134415600844333 /* DataManager.m */,
+				F4CEA5CB1134413D00844333 /* Group.h */,
+				F4CEA5CC1134413D00844333 /* Group.m */,
+				F4D47EDD11330765002C5225 /* BCard.h */,
+				F4D47EDE11330765002C5225 /* BCard.m */,
+				F4D47EDB11330765002C5225 /* Photo.h */,
+				F4D47EDC11330765002C5225 /* Photo.m */,
+				F4D47ED11133009C002C5225 /* UIImageToDataTransformer.h */,
+				F4D47ED21133009C002C5225 /* UIImageToDataTransformer.m */,
+				F4B903EF11E9A98C0046B581 /* AB Wrapper */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F4E28391112DBC0900C32A30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4F38EE011C7E585004679D6 /* PhotoResizerController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				F4E28318112DAFD600C32A30 /* FrontRowView.xib */,
+				F4E28397112DBFD100C32A30 /* GroupsTableViewController.xib */,
+				F4E2839C112DC00400C32A30 /* ContactsTableViewController.xib */,
+				F4AFEAE4114812AC00EB74BF /* DisplayBCardViewController.xib */,
+				F4E44A81119D84E900783902 /* AskContactViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F4F6FA50113C3DA100ACB401 /* Useful */ = {
+			isa = PBXGroup;
+			children = (
+				F4F6FA58113C3DCC00ACB401 /* UIImageExt.h */,
+				F4F6FA59113C3DCC00ACB401 /* UIImageExt.m */,
+				F4FA8A7C1176491700F777FC /* UIReflectedImageView.h */,
+				F4FA8A7D1176491700F777FC /* UIReflectedImageView.m */,
+				F4E0F40311ECDC0B00EECC0C /* AlertManager.h */,
+				F4E0F40411ECDC0B00EECC0C /* AlertManager.m */,
+			);
+			name = Useful;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BCard_iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BCard_iPhone" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BCard_iPhone;
+			productName = BCard_iPhone;
+			productReference = 1D6058910D05DD3D006BFB54 /* BCard_iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BCard_iPhone" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BCard_iPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F4E2831A112DAFD600C32A30 /* FrontRowView.xib in Resources */,
+				F4E2834C112DB31100C32A30 /* Default~iphone.png in Resources */,
+				F4E28399112DBFD100C32A30 /* GroupsTableViewController.xib in Resources */,
+				F4E2839E112DC00400C32A30 /* ContactsTableViewController.xib in Resources */,
+				F4A4FF67121267940096C049 /* Localizable.strings in Resources */,
+				F4AFEAE6114812AC00EB74BF /* DisplayBCardViewController.xib in Resources */,
+				F4F75CC911739351009849A3 /* backgroundGradientPortrait.png in Resources */,
+				F4E44A83119D84E900783902 /* AskContactViewController.xib in Resources */,
+				F4C154C711A3058100A867CB /* backgroundGradientLandscape.png in Resources */,
+				F4D2155311AFC09100718784 /* DisplayContactIcon.png in Resources */,
+				F4D2156411AFC44C00718784 /* AskContactIcon.png in Resources */,
+				F4A89B7711B38F3B005A86B1 /* EmptyCard.png in Resources */,
+				F4F38EE211C7E585004679D6 /* PhotoResizerController.xib in Resources */,
+				F4CE39ED11D12FED003CFF92 /* Icon_iPhone4.png in Resources */,
+				F4CE3A1511D1435A003CFF92 /* Icon_iPhone3.png in Resources */,
+				F4BA186711D1581500DDEA0B /* Default@2x~iphone.png in Resources */,
+				F4B9054811EA1FE90046B581 /* AskContactIcon@2x.png in Resources */,
+				F4B9054911EA1FE90046B581 /* DisplayContactIcon@2x.png in Resources */,
+				F40CB73811FAFC2F006FDCBC /* ExistingContactButtonNormal.png in Resources */,
+				F40CB73911FAFC2F006FDCBC /* ExistingContactButtonHighlighted.png in Resources */,
+				F40CB73A11FAFC2F006FDCBC /* NewContactButtonNormal.png in Resources */,
+				F40CB73B11FAFC2F006FDCBC /* NewContactButtonHighlighted.png in Resources */,
+				F40CB76B11FB5673006FDCBC /* ExistingContactButtonHighlighted@2x.png in Resources */,
+				F40CB76C11FB5673006FDCBC /* ExistingContactButtonNormal@2x.png in Resources */,
+				F40CB76D11FB5673006FDCBC /* NewContactButtonHighlighted@2x.png in Resources */,
+				F40CB76E11FB5673006FDCBC /* NewContactButtonNormal@2x.png in Resources */,
+				F4CE85A11201DB4C00C0C69D /* PhotoResizerPinBottomRight.png in Resources */,
+				F4CE85A21201DB4C00C0C69D /* PhotoResizerPinBottomRight@2x.png in Resources */,
+				F4CE85A31201DB4C00C0C69D /* PhotoResizerPinTopLeft.png in Resources */,
+				F4CE85A41201DB4C00C0C69D /* PhotoResizerPinTopLeft@2x.png in Resources */,
+				F426D92312088B200065B7C7 /* backgroundGradientLandscape@2x.png in Resources */,
+				F426D92412088B200065B7C7 /* backgroundGradientPortrait@2x.png in Resources */,
+				F4A9065D12357E1D00B29BB3 /* RotateButton.png in Resources */,
+				F4A9065E12357E1D00B29BB3 /* RotateButton@2x.png in Resources */,
+				F49F9418123A8F0E00F91A2B /* dist.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BCard_iPhoneAppDelegate.m in Sources */,
+				28C3AD8A0F43EF2300507BA6 /* BCard_iPhone.xcdatamodel in Sources */,
+				F4E28315112DABBD00C32A30 /* FrontRowViewController.m in Sources */,
+				F4E28357112DB3F400C32A30 /* MainNavigationController.m in Sources */,
+				F4E28398112DBFD100C32A30 /* GroupsTableViewController.m in Sources */,
+				F4E2839D112DC00400C32A30 /* ContactsTableViewController.m in Sources */,
+				F4D47ED31133009C002C5225 /* UIImageToDataTransformer.m in Sources */,
+				F4D47EDF11330765002C5225 /* Photo.m in Sources */,
+				F4D47EE011330765002C5225 /* BCard.m in Sources */,
+				F4CEA5CD1134413D00844333 /* Group.m in Sources */,
+				F4CEA5D01134415600844333 /* DataManager.m in Sources */,
+				F4F6FA5A113C3DCC00ACB401 /* UIImageExt.m in Sources */,
+				F4AFEAE5114812AC00EB74BF /* DisplayBCardViewController.m in Sources */,
+				F4C2712011564BE400BE6883 /* Notifications.m in Sources */,
+				F4FA8A7E1176491700F777FC /* UIReflectedImageView.m in Sources */,
+				F4C2B5331187363900BD9D13 /* DisplayContactController.m in Sources */,
+				F4E44A82119D84E900783902 /* AskContactViewController.m in Sources */,
+				F4F38EE111C7E585004679D6 /* PhotoResizerController.m in Sources */,
+				F421213A11CD0B00006D4C93 /* CropRectView.m in Sources */,
+				F4B903EB11E9A9300046B581 /* ABGroupW.m in Sources */,
+				F4B903EE11E9A93C0046B581 /* ABContactW.m in Sources */,
+				F4E0F40511ECDC0B00EECC0C /* AlertManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4A4FF66121267940096C049 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E283B1112DC27700C32A30 /* English */,
+				F4A4FF681212679F0096C049 /* French */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephane Chretien (P345PZDEAE)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BCard_iPhone_Prefix.pch;
+				INFOPLIST_FILE = "BCard_iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = BCard_iPhone;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "006058DD-F87D-4F61-8BC4-A6932FA7FEBA";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Stephane Chretien (P345PZDEAE)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BCard_iPhone_Prefix.pch;
+				INFOPLIST_FILE = "BCard_iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = BCard_iPhone;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "006058DD-F87D-4F61-8BC4-A6932FA7FEBA";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				SYMROOT = /Temp/build;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				SYMROOT = /Temp/build;
+			};
+			name = Release;
+		};
+		F49F9429123A8F2C00F91A2B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				SYMROOT = /Temp/build;
+			};
+			name = Distribution;
+		};
+		F49F942A123A8F2C00F91A2B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stephane Chretien";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BCard_iPhone_Prefix.pch;
+				INFOPLIST_FILE = "BCard_iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = BCard_iPhone;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "59C9C455-2CCB-46D5-8AA3-F69A5DE3F710";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Distribution;
+		};
+		F49F942B123A8F2E00F91A2B /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+				SYMROOT = /Temp/build;
+			};
+			name = AdHoc;
+		};
+		F49F942C123A8F2E00F91A2B /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_ENTITLEMENTS = dist.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stephane Chretien";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BCard_iPhone_Prefix.pch;
+				INFOPLIST_FILE = "BCard_iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = BCard_iPhone;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0462668F-634D-4BBC-AAB8-59BEEAABA7B6";
+				SDKROOT = iphoneos4.1;
+			};
+			name = AdHoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BCard_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				F49F942A123A8F2C00F91A2B /* Distribution */,
+				F49F942C123A8F2E00F91A2B /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BCard_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				F49F9429123A8F2C00F91A2B /* Distribution */,
+				F49F942B123A8F2E00F91A2B /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
