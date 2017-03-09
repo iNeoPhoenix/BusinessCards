@@ -23,7 +23,7 @@
 - (void)applicationDidFinishLaunching:(UIApplication*)application {    
 	m_Window.backgroundColor = [UIColor blackColor];
 	[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:YES];
-	[m_Window addSubview:m_MainNavigationController.view];
+    m_Window.rootViewController = m_MainNavigationController;
 	[m_Window makeKeyAndVisible];
 }
 
